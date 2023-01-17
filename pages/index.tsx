@@ -47,8 +47,9 @@ const Home: NextPage = () => {
       <div className='w-full h-screen md:w-auto bg-[url("/../imgs/photos/home/08.png")] md:bg-cover bg-center bg-no-repeat bg-fixed'></div>
       <div className='w-full h-screen md:w-auto bg-[url("/../imgs/photos/home/02.png")] bg-contain md:bg-cover bg-center bg-no-repeat bg-fixed'></div>
       <div className='w-full h-screen md:w-auto bg-[url("/../imgs/photos/home/09.png")] md:bg-cover bg-center bg-no-repeat bg-fixed'></div>
-      <div className='lg:my-10 md:h-screen top-0 flex justify-center md:items-center py-10 lg:py-0 bg-center bg-cover'>
-
+      
+      {/* NFT SECTION  */}
+      {/* <div className='lg:my-10 md:h-screen top-0 flex justify-center md:items-center py-10 lg:py-0 bg-center bg-cover'>
         <div className='md:mx-10 ml-5 bg-no-repeat bg-[url("/../imgs/photos/home/02.jpg")] bg-cover  lg:bg-cover bg-center md:bg-contain  md:w-full md:my-20 w-2/3 my-12 md:h-2/3 lg:h-2/3'></div>
         <div className='px-10 space-y-5 text-black w-full md:w-1/2 lg:w-full'>
           <h1 className='text-xl md:text-4xl lg:text-6xl max-w-md'>
@@ -65,7 +66,7 @@ const Home: NextPage = () => {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
       <Footer />
     </div>
   )

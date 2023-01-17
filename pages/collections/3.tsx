@@ -17,7 +17,7 @@ function LRDECRI() {
 
       <div className='flex mx-auto flex-wrap md:flex-row-2 p-10 lg:flex-row-2 md:w-5/6 lg:w-full'>
         <div className='md:w-1/2  lg:w-1/2 relative'>
-          <img className='px-2 mt-5' src="/../imgs/photos/collections/3/1.webp" alt="" />
+          <img className='px-2 mt-5' src="/../imgs/photos/collections/3/1.jpg" alt="" />
           <div className='mx-2 absolute bottom-0 shadow-lg shadow-zinc-900 left-0 right-0 bg-black py-5'>
             <h3 className='text-center text-xs font-normal text-white uppercase'>Respiravamo luce come fosse l'ultimo dei giorni #01</h3>
           </div>
