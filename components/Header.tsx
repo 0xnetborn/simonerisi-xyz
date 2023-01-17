@@ -57,7 +57,7 @@ function Header() {
                         onClick={() => setIsVisible(!isVisible)} className='text-xs md:text-sm font-semibold'>COLLECTIONS</h3>
 
                     {isVisible &&
-                        <ul onMouseLeave={() => setIsVisible(false)} className={`space-y-3 md:rounded-lg md:shadow-lg md:h-auto shadow-zinc-900 bg-white w-full absolute left-0 md:w-1/2 mt-8 p-5 text-xs md:bg-opacity-90 transition-all ease-in-out duration-400 ${isVisible ? "" : "hidden"
+                        <ul onMouseLeave={() => setIsVisible(false)} className={`space-y-3 md:rounded-lg md:shadow-lg md:h-auto shadow-zinc-900 bg-white w-full absolute left-0 md:w-1/3 mt-8 p-5 text-xs md:bg-opacity-90 transition-all ease-in-out duration-400 ${isVisible ? "" : "hidden"
                             }`}>
                             <li onClick={() => setIsVisible(false)} className='md:hover:font-bold font-bold md:font-normal hover:scale-95 transition-all ease-in-out duration-200'><Link href={'/collections/1'}>
                                 <h3 className='md:uppercase text-xs md:text-sm lg:text-md '>La ricerca dell'Essere ci renderà immortali</h3>
