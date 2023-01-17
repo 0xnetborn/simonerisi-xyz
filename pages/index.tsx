@@ -1,84 +1,72 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
+import Footer from '../components/Footer'
+import Header from '../components/Header'
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
+    <div className="">
       <Head>
-        <title>Create Next App</title>
+        <title>Home</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Welcome to{' '}
-          <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
-          </a>
-        </h1>
-
-        <p className="mt-3 text-2xl">
-          Get started by editing{' '}
-          <code className="rounded-md bg-gray-100 p-3 font-mono text-lg">
-            pages/index.tsx
-          </code>
-        </p>
-
-        <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
-          <a
-            href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and its API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+      <Header />
+      <div className='md:hidden h-screen lg:my-10 md:h-screen top-0  bg-[url("/../imgs/photos/home/02.jpg")] flex justify-center md:items-center py-10 lg:py-0 bg-center bg-cover'>
+        <div className='px-10 space-y-5 text-black w-full lg:w-full'>
+          <h1 className='text-xl md:text-4xl lg:text-6xl max-w-xs mt-10 pr-2 font-normal md:max-w-2xl'>
+          Wandering around Italy discovering souls and intimacy
+          </h1>
+          <div className=''>
+            <Link href={'/collections'}>
+              <button className='text-xs md:text-sm border px-4 md:px-6 py-3  bg-white text-black hover:bg-gray-100 shadow-gray-800 shadow-md hover:shadow-black hover:shadow-lg hover:text-black transition-all duration-200 ease-in-out rounded-md border-black cursor-pointer font-bold mb-1 md:mb-0 md:mt-5 bg-transparent  hover:bg-gradient-300'>
+                SEE ALL COLLECTIONS
+              </button>
+            </Link>
+          </div>
         </div>
-      </main>
+        {/* <div className='h-1/3 mx-10 bg-no-repeat bg-cover w-full lg:bg-cover bg-center md:bg-contain  md:w-full md:my-20 md:h-2/3 lg:h-full'></div> */}
+      </div>
+      <div className='hidden h-screen lg:my-10 md:h-screen top-0  md:flex justify-center md:items-center py-10 lg:py-0 bg-center bg-cover'>
+        <div className='px-10 space-y-5 text-black w-1/2 lg:w-full'>
+          <h1 className='text-xl md:text-4xl lg:text-6xl max-w-lg'>
+            Wandering around Italy discovering souls and intimacy
+          </h1>
+          <div className=''>
+            <Link href={'/collections'}>
+              <button className='text-xs md:text-sm border px-4 md:px-6 py-3  bg-white text-black hover:bg-gray-100 shadow-gray-800 shadow-md hover:shadow-black hover:shadow-lg hover:text-black transition-all duration-200 ease-in-out rounded-md border-black cursor-pointer font-bold mb-1 md:mb-0 md:mt-5 bg-transparent  hover:bg-gradient-300'>
+                SEE ALL COLLECTIONS
+              </button>
+            </Link>
+          </div>
+        </div>
+        <div className='h-1/3 mx-10 bg-no-repeat bg-[url("/../imgs/photos/home/02.jpg")] bg-cover w-full lg:bg-cover bg-center md:bg-contain  md:w-full md:my-20 md:h-2/3 lg:h-full'></div>
+      </div>
 
-      <footer className="flex h-24 w-full items-center justify-center border-t">
-        <a
-          className="flex items-center justify-center gap-2"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-        </a>
-      </footer>
+      <div className='w-full h-screen md:w-auto bg-[url("/../imgs/photos/home/08.png")] md:bg-cover bg-center bg-no-repeat bg-fixed'></div>
+      <div className='w-full h-screen md:w-auto bg-[url("/../imgs/photos/home/02.png")] bg-contain md:bg-cover bg-center bg-no-repeat bg-fixed'></div>
+      <div className='w-full h-screen md:w-auto bg-[url("/../imgs/photos/home/09.png")] md:bg-cover bg-center bg-no-repeat bg-fixed'></div>
+      <div className='lg:my-10 md:h-screen top-0 flex justify-center md:items-center py-10 lg:py-0 bg-center bg-cover'>
+
+        <div className='md:mx-10 ml-5 bg-no-repeat bg-[url("/../imgs/photos/home/02.jpg")] bg-cover  lg:bg-cover bg-center md:bg-contain  md:w-full md:my-20 w-2/3 my-12 md:h-2/3 lg:h-2/3'></div>
+        <div className='px-10 space-y-5 text-black w-full md:w-1/2 lg:w-full'>
+          <h1 className='text-xl md:text-4xl lg:text-6xl max-w-md'>
+            NFT Project
+          </h1>
+          <h2>
+            Simone Risi's artistic soul reawakens and finds new expression in the Web3 universe. A movement is emerging that combines atavistic emotional archetypes with new forms of digital identity. The project aims to create a new artistic reality, free from censorship and centralized control, for a community interested in photography and self-discovery.
+          </h2>
+          <div className=''>
+            <Link href={'/nft'}>
+              <button className='text-xs md:text-sm border px-4 md:px-6 py-3  bg-white text-black hover:bg-gray-100 shadow-gray-800 shadow-md hover:shadow-black hover:shadow-lg hover:text-black transition-all duration-200 ease-in-out rounded-md border-black cursor-pointer font-bold mb-1 md:mb-0 md:mt-5 bg-transparent  hover:bg-gradient-300'>
+                DISCOVER
+              </button>
+            </Link>
+          </div>
+        </div>
+      </div>
+      <Footer />
     </div>
   )
 }
