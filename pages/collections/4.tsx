@@ -12,7 +12,7 @@ function PIA() {
       </Head>
       <Header />
       <div className='pt-10 flex mx-auto justify-center'>
-        <h1 className='lg:text-3xl font-thin uppercase'>Protezione infinita, ascoltami</h1>
+        <h1 className='text-xs lg:text-3xl font-thin uppercase'>Protezione infinita, ascoltami</h1>
       </div>
 
       <div className='flex mx-auto flex-wrap md:flex-row-2 p-10 lg:flex-row-2 md:w-5/6 lg:w-full'>

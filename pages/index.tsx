@@ -16,7 +16,7 @@ const Home: NextPage = () => {
       <div className='md:hidden h-screen lg:my-10 md:h-screen top-0  bg-[url("/../imgs/photos/home/02.jpg")] flex justify-center md:items-center py-10 lg:py-0 bg-center bg-cover'>
         <div className='px-10 space-y-5 text-black w-full lg:w-full'>
           <h1 className='text-xl md:text-4xl lg:text-6xl max-w-xs mt-10 pr-2 font-normal md:max-w-2xl'>
-          Wandering around Italy discovering souls and intimacy
+            Wandering around Italy discovering souls and intimacy
           </h1>
           <div className=''>
             <Link href={'/collections'}>
@@ -45,9 +45,9 @@ const Home: NextPage = () => {
       </div>
 
       <div className='w-full h-screen md:w-auto bg-[url("/../imgs/photos/home/08.png")] md:bg-cover bg-center bg-no-repeat bg-fixed'></div>
-      <div className='w-full h-screen md:w-auto bg-[url("/../imgs/photos/home/02.png")] bg-contain md:bg-cover bg-center bg-no-repeat bg-fixed'></div>
-      <div className='w-full h-screen md:w-auto bg-[url("/../imgs/photos/home/09.png")] md:bg-cover bg-center bg-no-repeat bg-fixed'></div>
-      
+      <div className='w-full h-screen md:w-auto bg-[url("/../imgs/photos/home/02.png")] bg-cover bg-[top_left_-900px] md:bg-center bg-no-repeat md:bg-cover bg-fixed '></div>
+      <div className='w-full h-screen md:w-auto bg-[url("/../imgs/photos/home/09.png")] md:bg-cover bg-[top_-100px_left_-800px] md:bg-center bg-no-repeat bg-fixed'></div>
+
       {/* NFT SECTION  */}
       {/* <div className='lg:my-10 md:h-screen top-0 flex justify-center md:items-center py-10 lg:py-0 bg-center bg-cover'>
         <div className='md:mx-10 ml-5 bg-no-repeat bg-[url("/../imgs/photos/home/02.jpg")] bg-cover  lg:bg-cover bg-center md:bg-contain  md:w-full md:my-20 w-2/3 my-12 md:h-2/3 lg:h-2/3'></div>

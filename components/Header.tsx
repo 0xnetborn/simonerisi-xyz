@@ -57,40 +57,40 @@ function Header() {
                         onClick={() => setIsVisible(!isVisible)} className='text-xs md:text-sm font-semibold'>COLLECTIONS</h3>
 
                     {isVisible &&
-                        <ul onMouseLeave={() => setIsVisible(false)} className={`rounded-lg absolute shadow-lg shadow-zinc-900 bg-white w-2/3 md:w-1/2 mt-3 p-5 text-sm bg-opacity-60 transition-all ease-in-out duration-200 ${isVisible ? "" : "hidden"
+                        <ul onMouseLeave={() => setIsVisible(false)} className={`space-y-3 md:rounded-lg md:shadow-lg md:h-auto shadow-zinc-900 bg-white w-full absolute left-0 md:w-1/2 mt-8 p-5 text-xs md:bg-opacity-90 transition-all ease-in-out duration-400 ${isVisible ? "" : "hidden"
                             }`}>
-                            <li onClick={() => setIsVisible(false)} className='hover:font-bold hover:scale-95 transition-all ease-in-out duration-200'><Link href={'/collections/1'}>
-                                <h3 className='uppercase text-xs md:text-sm lg:text-md '>La ricerca dell'Essere ci renderà immortali</h3>
+                            <li onClick={() => setIsVisible(false)} className='md:hover:font-bold font-bold md:font-normal hover:scale-95 transition-all ease-in-out duration-200'><Link href={'/collections/1'}>
+                                <h3 className='md:uppercase text-xs md:text-sm lg:text-md '>La ricerca dell'Essere ci renderà immortali</h3>
                             </Link></li>
-                            <li onClick={() => setIsVisible(false)} className='hover:font-bold hover:scale-95 transition-all ease-in-out duration-200'><Link href={'/collections/2'}>
-                                <h3 className='uppercase text-xs md:text-sm lg:text-md '>Ancient Perception</h3>
+                            <li onClick={() => setIsVisible(false)} className='md:hover:font-bold font-bold md:font-normal hover:scale-95 transition-all ease-in-out duration-200'><Link href={'/collections/2'}>
+                                <h3 className='md:uppercase text-xs md:text-sm lg:text-md '>Ancient Perception</h3>
                             </Link></li>
-                            <li onClick={() => setIsVisible(false)} className='hover:font-bold hover:scale-95 transition-all ease-in-out duration-200'><Link href={'/collections/3'}>
-                                <h3 className='uppercase text-xs md:text-sm lg:text-md '>Respiravamo luce come fosse l'ultimo dei giorni</h3>
+                            <li onClick={() => setIsVisible(false)} className='md:hover:font-bold font-bold md:font-normal hover:scale-95 transition-all ease-in-out duration-200'><Link href={'/collections/3'}>
+                                <h3 className='md:uppercase text-xs md:text-sm lg:text-md '>Respiravamo luce come fosse l'ultimo dei giorni</h3>
                             </Link></li>
-                            <li onClick={() => setIsVisible(false)} className='hover:font-bold hover:scale-95 transition-all ease-in-out duration-200'><Link href={'/collections/4'}>
-                                <h3 className='uppercase text-xs md:text-sm lg:text-md '>Protezione infinita, ascoltami</h3>
+                            <li onClick={() => setIsVisible(false)} className='md:hover:font-bold font-bold md:font-normal hover:scale-95 transition-all ease-in-out duration-200'><Link href={'/collections/4'}>
+                                <h3 className='md:uppercase text-xs md:text-sm lg:text-md '>Protezione infinita, ascoltami</h3>
                             </Link></li>
-                            <li onClick={() => setIsVisible(false)} className='hover:font-bold hover:scale-95 transition-all ease-in-out duration-200'><Link href={'/collections/5'}>
-                                <h3 className='uppercase text-xs md:text-sm lg:text-md '>Madre del presente</h3>
+                            <li onClick={() => setIsVisible(false)} className='md:hover:font-bold font-bold md:font-normal hover:scale-95 transition-all ease-in-out duration-200'><Link href={'/collections/5'}>
+                                <h3 className='md:uppercase text-xs md:text-sm lg:text-md '>Madre del presente</h3>
                             </Link></li>
-                            <li onClick={() => setIsVisible(false)} className='hover:font-bold hover:scale-95 transition-all ease-in-out duration-200'><Link href={'/collections/6'}>
-                                <h3 className='uppercase text-xs md:text-sm lg:text-md '>La luce di notte profuma d'incenso</h3>
+                            <li onClick={() => setIsVisible(false)} className='md:hover:font-bold font-bold md:font-normal hover:scale-95 transition-all ease-in-out duration-200'><Link href={'/collections/6'}>
+                                <h3 className='md:uppercase text-xs md:text-sm lg:text-md '>La luce di notte profuma d'incenso</h3>
                             </Link></li>
-                            <li onClick={() => setIsVisible(false)} className='hover:font-bold hover:scale-95 transition-all ease-in-out duration-200'><Link href={'/collections/7'}>
-                                <h3 className='uppercase text-xs md:text-sm lg:text-md '>Gocce di terra in questa eterna provincia</h3>
+                            <li onClick={() => setIsVisible(false)} className='md:hover:font-bold font-bold md:font-normal hover:scale-95 transition-all ease-in-out duration-200'><Link href={'/collections/7'}>
+                                <h3 className='md:uppercase text-xs md:text-sm lg:text-md '>Gocce di terra in questa eterna provincia</h3>
                             </Link></li>
-                            <li onClick={() => setIsVisible(false)} className='hover:font-bold hover:scale-95 transition-all ease-in-out duration-200'><Link href={'/collections/8'}>
-                                <h3 className='uppercase text-xs md:text-sm lg:text-md '>Solida la mente di chi sa percepire</h3>
+                            <li onClick={() => setIsVisible(false)} className='md:hover:font-bold font-bold md:font-normal hover:scale-95 transition-all ease-in-out duration-200'><Link href={'/collections/8'}>
+                                <h3 className='md:uppercase text-xs md:text-sm lg:text-md '>Solida la mente di chi sa percepire</h3>
                             </Link></li>
-                            <li onClick={() => setIsVisible(false)} className='hover:font-bold hover:scale-95 transition-all ease-in-out duration-200'><Link href={'/collections/9'}>
-                                <h3 className='uppercase text-xs md:text-sm lg:text-md '>Ardere senza fiamma fra le gocce di rugiada</h3>
+                            <li onClick={() => setIsVisible(false)} className='md:hover:font-bold font-bold md:font-normal hover:scale-95 transition-all ease-in-out duration-200'><Link href={'/collections/9'}>
+                                <h3 className='md:uppercase text-xs md:text-sm lg:text-md '>Ardere senza fiamma fra le gocce di rugiada</h3>
                             </Link></li>
-                            <li onClick={() => setIsVisible(false)} className='hover:font-bold hover:scale-95 transition-all ease-in-out duration-200'><Link href={'/collections/10'}>
-                                <h3 className='uppercase text-xs md:text-sm lg:text-md '>Quasi come una magia</h3>
+                            <li onClick={() => setIsVisible(false)} className='md:hover:font-bold font-bold md:font-normal hover:scale-95 transition-all ease-in-out duration-200'><Link href={'/collections/10'}>
+                                <h3 className='md:uppercase text-xs md:text-sm lg:text-md '>Quasi come una magia</h3>
                             </Link></li>
-                            <li onClick={() => setIsVisible(false)} className='hover:font-bold hover:scale-95 transition-all ease-in-out duration-200'><Link href={'/collections/11'}>
-                                <h3 className='uppercase text-xs md:text-sm lg:text-md '>Versare una donna dentro un uomo, spargere quest'acqua sopra il fuoco</h3>
+                            <li onClick={() => setIsVisible(false)} className='md:hover:font-bold font-bold md:font-normal hover:scale-95 transition-all ease-in-out duration-200'><Link href={'/collections/11'}>
+                                <h3 className='md:uppercase text-xs md:text-sm lg:text-md '>Versare una donna dentro un uomo, spargere quest'acqua sopra il fuoco</h3>
                             </Link></li>
                         </ul>}
                 </Link>

@@ -1,17 +1,20 @@
+import Link from 'next/link'
 import React from 'react'
 
 function Footer() {
   return (
     <div className='px-5 md:px-0 py-10 border border-gray-400 flex justify-between items-center'>
         <div className='flex mx-auto justify-center py-4'>
-        <img className='w-44' src="/../imgs/logos/LOGO by Simone Risi.png" alt="" />
+        <Link href="/">
+        <img className='w-44 pr-1' src="/../imgs/logos/LOGO by Simone Risi.png" alt="" />
+        </Link>
         </div>
         
         <div className='flex mx-auto justify-center'>
                 <p className='max-w-xl text-xs font-thin text-center hidden md:block'>Embrace the beauty of intimacy as we wander through the streets of Italy, capturing the essence of the human experience through every frame.</p>
         </div>
 
-        <div className='flex mx-auto justify-center space-x-5 py-5'>
+        <div className='flex mx-auto justify-center md:space-x-5 space-x-3 py-5'>
         <a href='https://t.me/bysimonerisi' target={'_blank'}>
                     <img className='cursor-pointer w-4 md:w-5 hover:scale-110 transition-all duration-200 ease-in-out' src="../imgs/logos/telegram-logo.png" alt="" />
                 </a>
